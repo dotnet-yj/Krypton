@@ -29,5 +29,35 @@ namespace KryptonInputBoxExamples
         {
             KryptonInputBox.Show(textBoxPrompt.Text, textBoxCaption.Text, textBoxDefaultResponse.Text);
         }
+
+        private void textBoxDefaultResponse_TextChanged ( object sender, EventArgs e )
+        {
+
+        }
+
+        private void textBoxCaption_TextChanged ( object sender, EventArgs e )
+        {
+
+        }
+
+        private void textBoxPrompt_TextChanged ( object sender, EventArgs e )
+        {
+
+        }
+
+        private void labelDefaultResponse_Click ( object sender, EventArgs e )
+        {
+
+        }
+
+        private void labelCaption_Click ( object sender, EventArgs e )
+        {
+
+        }
+
+        private void labelPrompt_Click ( object sender, EventArgs e )
+        {
+
+        }
     }
 }

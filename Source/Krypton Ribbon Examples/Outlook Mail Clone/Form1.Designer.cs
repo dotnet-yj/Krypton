@@ -1308,6 +1308,7 @@ namespace OutlookMailClone
             this.kryptonRibbon.AllowFormIntegrate = false;
             this.kryptonRibbon.ButtonSpecs.AddRange(new ComponentFactory.Krypton.Toolkit.ButtonSpecAny[] {
             this.buttonSpecHelp});
+            this.kryptonRibbon.InDesignHelperMode = true;
             this.kryptonRibbon.Name = "kryptonRibbon";
             this.kryptonRibbon.QATButtons.AddRange(new System.ComponentModel.Component[] {
             this.qatSave,
@@ -1351,7 +1352,6 @@ namespace OutlookMailClone
             this.tabOptions,
             this.tabFormatText,
             this.tabDeveloper});
-            this.kryptonRibbon.SelectedContext = null;
             this.kryptonRibbon.SelectedTab = this.tabMessage;
             this.kryptonRibbon.Size = new System.Drawing.Size(782, 115);
             this.kryptonRibbon.TabIndex = 0;
@@ -2991,6 +2991,10 @@ namespace OutlookMailClone
             // 
             this.addReminderToolStripMenuItem.Image = global::OutlookMailClone.Properties.Resources.OptionsReminder;
             this.addReminderToolStripMenuItem.Text = "Add Reminder...";
+            // 
+            // kryptonManager1
+            // 
+            this.kryptonManager1.GlobalPaletteMode = ComponentFactory.Krypton.Toolkit.PaletteModeManager.Office2010Black;
             // 
             // Form1
             // 

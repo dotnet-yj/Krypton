@@ -173,12 +173,16 @@ namespace RibbonAndNavigatorAndWorkspace
             // 
             // radioSparkleOrange
             // 
-            this.radioSparkleOrange.Location = new System.Drawing.Point(13, 205);
+            this.radioSparkleOrange.Location = new System.Drawing.Point(15, 189);
             this.radioSparkleOrange.Name = "radioSparkleOrange";
-            this.radioSparkleOrange.Size = new System.Drawing.Size(110, 19);
+            this.radioSparkleOrange.Size = new System.Drawing.Size(115, 20);
             this.radioSparkleOrange.TabIndex = 8;
             this.radioSparkleOrange.Values.Text = "Sparkle - Orange";
             this.radioSparkleOrange.CheckedChanged += new System.EventHandler(this.radioSparkleOrange_CheckedChanged);
+            // 
+            // kryptonManager
+            // 
+            this.kryptonManager.GlobalPaletteMode = ComponentFactory.Krypton.Toolkit.PaletteModeManager.Office2010Black;
             // 
             // panelFill
             // 
@@ -186,17 +190,17 @@ namespace RibbonAndNavigatorAndWorkspace
             this.panelFill.Controls.Add(this.kryptonPanel1);
             this.panelFill.Controls.Add(this.navigatorOutlook);
             this.panelFill.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelFill.Location = new System.Drawing.Point(0, 141);
-            this.panelFill.Margin = new System.Windows.Forms.Padding(7);
+            this.panelFill.Location = new System.Drawing.Point(0, 142);
+            this.panelFill.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
             this.panelFill.Name = "panelFill";
-            this.panelFill.Padding = new System.Windows.Forms.Padding(7);
-            this.panelFill.Size = new System.Drawing.Size(638, 454);
+            this.panelFill.Padding = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.panelFill.Size = new System.Drawing.Size(744, 407);
             this.panelFill.TabIndex = 1;
             // 
             // kryptonWorkspace
             // 
             this.kryptonWorkspace.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.kryptonWorkspace.Location = new System.Drawing.Point(162, 7);
+            this.kryptonWorkspace.Location = new System.Drawing.Point(187, 6);
             this.kryptonWorkspace.Name = "kryptonWorkspace";
             // 
             // 
@@ -206,8 +210,9 @@ namespace RibbonAndNavigatorAndWorkspace
             this.kryptonWorkspaceSequence1});
             this.kryptonWorkspace.Root.Orientation = System.Windows.Forms.Orientation.Vertical;
             this.kryptonWorkspace.Root.UniqueName = "03CE3DB6856D4BE671B66A4FB4EF68C3";
+            this.kryptonWorkspace.Root.WorkspaceControl = this.kryptonWorkspace;
             this.kryptonWorkspace.SeparatorStyle = ComponentFactory.Krypton.Toolkit.SeparatorStyle.HighProfile;
-            this.kryptonWorkspace.Size = new System.Drawing.Size(469, 440);
+            this.kryptonWorkspace.Size = new System.Drawing.Size(549, 395);
             this.kryptonWorkspace.TabIndex = 3;
             this.kryptonWorkspace.TabStop = true;
             this.kryptonWorkspace.WorkspaceCellAdding += new System.EventHandler<ComponentFactory.Krypton.Workspace.WorkspaceCellEventArgs>(this.OnWorkspaceCellAdding);
@@ -224,7 +229,7 @@ namespace RibbonAndNavigatorAndWorkspace
             this.kryptonPage3,
             this.kryptonPage2,
             this.kryptonPage7});
-            this.kryptonWorkspaceCell1.SelectedIndex = 0;
+            this.kryptonWorkspaceCell1.SelectedIndex = 3;
             this.kryptonWorkspaceCell1.UniqueName = "B6BB7B2230CD4B6CDBB3C3D3ECA3CE84";
             // 
             // kryptonPage1
@@ -239,9 +244,9 @@ namespace RibbonAndNavigatorAndWorkspace
             this.kryptonPage1.Controls.Add(this.kryptonRadioButton1);
             this.kryptonPage1.Flags = 65534;
             this.kryptonPage1.LastVisibleSet = true;
-            this.kryptonPage1.MinimumSize = new System.Drawing.Size(50, 50);
+            this.kryptonPage1.MinimumSize = new System.Drawing.Size(58, 46);
             this.kryptonPage1.Name = "kryptonPage1";
-            this.kryptonPage1.Size = new System.Drawing.Size(467, 191);
+            this.kryptonPage1.Size = new System.Drawing.Size(547, 168);
             this.kryptonPage1.Text = "Page 1";
             this.kryptonPage1.TextDescription = "Page 1 Description";
             this.kryptonPage1.TextTitle = "Page 1 Title";
@@ -250,57 +255,57 @@ namespace RibbonAndNavigatorAndWorkspace
             // 
             // kryptonLabel1
             // 
-            this.kryptonLabel1.Location = new System.Drawing.Point(180, 87);
+            this.kryptonLabel1.Location = new System.Drawing.Point(210, 80);
             this.kryptonLabel1.Name = "kryptonLabel1";
-            this.kryptonLabel1.Size = new System.Drawing.Size(62, 19);
+            this.kryptonLabel1.Size = new System.Drawing.Size(66, 20);
             this.kryptonLabel1.TabIndex = 6;
             this.kryptonLabel1.Values.Text = "Label Text";
             // 
             // kryptonLinkLabel1
             // 
-            this.kryptonLinkLabel1.Location = new System.Drawing.Point(180, 63);
+            this.kryptonLinkLabel1.Location = new System.Drawing.Point(210, 58);
             this.kryptonLinkLabel1.Name = "kryptonLinkLabel1";
-            this.kryptonLinkLabel1.Size = new System.Drawing.Size(61, 19);
+            this.kryptonLinkLabel1.Size = new System.Drawing.Size(65, 20);
             this.kryptonLinkLabel1.TabIndex = 5;
             this.kryptonLinkLabel1.Values.Text = "Link Label";
             // 
             // kryptonCheckBox2
             // 
-            this.kryptonCheckBox2.Location = new System.Drawing.Point(185, 15);
+            this.kryptonCheckBox2.Location = new System.Drawing.Point(216, 14);
             this.kryptonCheckBox2.Name = "kryptonCheckBox2";
-            this.kryptonCheckBox2.Size = new System.Drawing.Size(83, 19);
+            this.kryptonCheckBox2.Size = new System.Drawing.Size(87, 20);
             this.kryptonCheckBox2.TabIndex = 3;
             this.kryptonCheckBox2.Values.Text = "CheckBox 1";
             // 
             // kryptonCheckBox1
             // 
-            this.kryptonCheckBox1.Location = new System.Drawing.Point(185, 39);
+            this.kryptonCheckBox1.Location = new System.Drawing.Point(216, 36);
             this.kryptonCheckBox1.Name = "kryptonCheckBox1";
-            this.kryptonCheckBox1.Size = new System.Drawing.Size(83, 19);
+            this.kryptonCheckBox1.Size = new System.Drawing.Size(87, 20);
             this.kryptonCheckBox1.TabIndex = 4;
             this.kryptonCheckBox1.Values.Text = "CheckBox 2";
             // 
             // kryptonRadioButton3
             // 
-            this.kryptonRadioButton3.Location = new System.Drawing.Point(18, 63);
+            this.kryptonRadioButton3.Location = new System.Drawing.Point(21, 58);
             this.kryptonRadioButton3.Name = "kryptonRadioButton3";
-            this.kryptonRadioButton3.Size = new System.Drawing.Size(99, 19);
+            this.kryptonRadioButton3.Size = new System.Drawing.Size(104, 20);
             this.kryptonRadioButton3.TabIndex = 2;
             this.kryptonRadioButton3.Values.Text = "Radio Button 3";
             // 
             // kryptonRadioButton2
             // 
-            this.kryptonRadioButton2.Location = new System.Drawing.Point(18, 39);
+            this.kryptonRadioButton2.Location = new System.Drawing.Point(21, 36);
             this.kryptonRadioButton2.Name = "kryptonRadioButton2";
-            this.kryptonRadioButton2.Size = new System.Drawing.Size(99, 19);
+            this.kryptonRadioButton2.Size = new System.Drawing.Size(104, 20);
             this.kryptonRadioButton2.TabIndex = 1;
             this.kryptonRadioButton2.Values.Text = "Radio Button 2";
             // 
             // kryptonRadioButton1
             // 
-            this.kryptonRadioButton1.Location = new System.Drawing.Point(18, 15);
+            this.kryptonRadioButton1.Location = new System.Drawing.Point(21, 14);
             this.kryptonRadioButton1.Name = "kryptonRadioButton1";
-            this.kryptonRadioButton1.Size = new System.Drawing.Size(99, 19);
+            this.kryptonRadioButton1.Size = new System.Drawing.Size(104, 20);
             this.kryptonRadioButton1.TabIndex = 0;
             this.kryptonRadioButton1.Values.Text = "Radio Button 1";
             // 
@@ -309,9 +314,9 @@ namespace RibbonAndNavigatorAndWorkspace
             this.kryptonPage3.AutoHiddenSlideSize = new System.Drawing.Size(200, 200);
             this.kryptonPage3.Flags = 65534;
             this.kryptonPage3.LastVisibleSet = true;
-            this.kryptonPage3.MinimumSize = new System.Drawing.Size(50, 50);
+            this.kryptonPage3.MinimumSize = new System.Drawing.Size(58, 46);
             this.kryptonPage3.Name = "kryptonPage3";
-            this.kryptonPage3.Size = new System.Drawing.Size(392, 147);
+            this.kryptonPage3.Size = new System.Drawing.Size(547, 168);
             this.kryptonPage3.Text = "Page 2";
             this.kryptonPage3.TextDescription = "Page 2 Description";
             this.kryptonPage3.TextTitle = "Page 2 Title";
@@ -323,9 +328,9 @@ namespace RibbonAndNavigatorAndWorkspace
             this.kryptonPage2.AutoHiddenSlideSize = new System.Drawing.Size(200, 200);
             this.kryptonPage2.Flags = 65534;
             this.kryptonPage2.LastVisibleSet = true;
-            this.kryptonPage2.MinimumSize = new System.Drawing.Size(50, 50);
+            this.kryptonPage2.MinimumSize = new System.Drawing.Size(58, 46);
             this.kryptonPage2.Name = "kryptonPage2";
-            this.kryptonPage2.Size = new System.Drawing.Size(100, 100);
+            this.kryptonPage2.Size = new System.Drawing.Size(547, 168);
             this.kryptonPage2.Text = "Page 3";
             this.kryptonPage2.TextDescription = "Page 3 Description";
             this.kryptonPage2.TextTitle = "Page 3 Title";
@@ -337,9 +342,9 @@ namespace RibbonAndNavigatorAndWorkspace
             this.kryptonPage7.AutoHiddenSlideSize = new System.Drawing.Size(200, 200);
             this.kryptonPage7.Flags = 65534;
             this.kryptonPage7.LastVisibleSet = true;
-            this.kryptonPage7.MinimumSize = new System.Drawing.Size(50, 50);
+            this.kryptonPage7.MinimumSize = new System.Drawing.Size(58, 46);
             this.kryptonPage7.Name = "kryptonPage7";
-            this.kryptonPage7.Size = new System.Drawing.Size(100, 100);
+            this.kryptonPage7.Size = new System.Drawing.Size(547, 168);
             this.kryptonPage7.Text = "Page 4";
             this.kryptonPage7.TextDescription = "Page 4 Description";
             this.kryptonPage7.TextTitle = "Page 4 Title";
@@ -352,6 +357,7 @@ namespace RibbonAndNavigatorAndWorkspace
             this.kryptonWorkspaceCell3,
             this.kryptonWorkspaceCell4});
             this.kryptonWorkspaceSequence1.UniqueName = "E0BD868474F749821686DA2047A1B41C";
+            this.kryptonWorkspaceSequence1.WorkspaceControl = null;
             // 
             // kryptonWorkspaceCell3
             // 
@@ -372,9 +378,9 @@ namespace RibbonAndNavigatorAndWorkspace
             this.kryptonPage4.AutoHiddenSlideSize = new System.Drawing.Size(200, 200);
             this.kryptonPage4.Flags = 65534;
             this.kryptonPage4.LastVisibleSet = true;
-            this.kryptonPage4.MinimumSize = new System.Drawing.Size(50, 50);
+            this.kryptonPage4.MinimumSize = new System.Drawing.Size(58, 46);
             this.kryptonPage4.Name = "kryptonPage4";
-            this.kryptonPage4.Size = new System.Drawing.Size(229, 192);
+            this.kryptonPage4.Size = new System.Drawing.Size(270, 168);
             this.kryptonPage4.Text = "Page 5";
             this.kryptonPage4.TextDescription = "Page 5 Description";
             this.kryptonPage4.TextTitle = "Page 5 Title";
@@ -386,9 +392,9 @@ namespace RibbonAndNavigatorAndWorkspace
             this.kryptonPage5.AutoHiddenSlideSize = new System.Drawing.Size(200, 200);
             this.kryptonPage5.Flags = 65534;
             this.kryptonPage5.LastVisibleSet = true;
-            this.kryptonPage5.MinimumSize = new System.Drawing.Size(50, 50);
+            this.kryptonPage5.MinimumSize = new System.Drawing.Size(58, 46);
             this.kryptonPage5.Name = "kryptonPage5";
-            this.kryptonPage5.Size = new System.Drawing.Size(192, 148);
+            this.kryptonPage5.Size = new System.Drawing.Size(224, 137);
             this.kryptonPage5.Text = "Page 6";
             this.kryptonPage5.TextDescription = "Page 6 Description";
             this.kryptonPage5.TextTitle = "Page 6 Title";
@@ -400,9 +406,9 @@ namespace RibbonAndNavigatorAndWorkspace
             this.kryptonPage10.AutoHiddenSlideSize = new System.Drawing.Size(200, 200);
             this.kryptonPage10.Flags = 65534;
             this.kryptonPage10.LastVisibleSet = true;
-            this.kryptonPage10.MinimumSize = new System.Drawing.Size(50, 50);
+            this.kryptonPage10.MinimumSize = new System.Drawing.Size(58, 46);
             this.kryptonPage10.Name = "kryptonPage10";
-            this.kryptonPage10.Size = new System.Drawing.Size(100, 100);
+            this.kryptonPage10.Size = new System.Drawing.Size(117, 92);
             this.kryptonPage10.Text = "Page 7";
             this.kryptonPage10.TextDescription = "Page 7 Description";
             this.kryptonPage10.TextTitle = "Page 7 Title";
@@ -427,9 +433,9 @@ namespace RibbonAndNavigatorAndWorkspace
             this.kryptonPage6.AutoHiddenSlideSize = new System.Drawing.Size(200, 200);
             this.kryptonPage6.Flags = 65534;
             this.kryptonPage6.LastVisibleSet = true;
-            this.kryptonPage6.MinimumSize = new System.Drawing.Size(50, 50);
+            this.kryptonPage6.MinimumSize = new System.Drawing.Size(58, 46);
             this.kryptonPage6.Name = "kryptonPage6";
-            this.kryptonPage6.Size = new System.Drawing.Size(231, 192);
+            this.kryptonPage6.Size = new System.Drawing.Size(270, 168);
             this.kryptonPage6.Text = "Page 8";
             this.kryptonPage6.TextDescription = "Page 8 Description";
             this.kryptonPage6.TextTitle = "Page 8 Title";
@@ -441,9 +447,9 @@ namespace RibbonAndNavigatorAndWorkspace
             this.kryptonPage11.AutoHiddenSlideSize = new System.Drawing.Size(200, 200);
             this.kryptonPage11.Flags = 65534;
             this.kryptonPage11.LastVisibleSet = true;
-            this.kryptonPage11.MinimumSize = new System.Drawing.Size(50, 50);
+            this.kryptonPage11.MinimumSize = new System.Drawing.Size(58, 46);
             this.kryptonPage11.Name = "kryptonPage11";
-            this.kryptonPage11.Size = new System.Drawing.Size(100, 100);
+            this.kryptonPage11.Size = new System.Drawing.Size(117, 92);
             this.kryptonPage11.Text = "Page 9";
             this.kryptonPage11.TextDescription = "Page 9 Description";
             this.kryptonPage11.TextTitle = "Page 9 Title";
@@ -453,9 +459,9 @@ namespace RibbonAndNavigatorAndWorkspace
             // kryptonPanel1
             // 
             this.kryptonPanel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.kryptonPanel1.Location = new System.Drawing.Point(155, 7);
+            this.kryptonPanel1.Location = new System.Drawing.Point(179, 6);
             this.kryptonPanel1.Name = "kryptonPanel1";
-            this.kryptonPanel1.Size = new System.Drawing.Size(7, 440);
+            this.kryptonPanel1.Size = new System.Drawing.Size(8, 395);
             this.kryptonPanel1.TabIndex = 2;
             // 
             // navigatorOutlook
@@ -468,14 +474,14 @@ namespace RibbonAndNavigatorAndWorkspace
             this.navigatorOutlook.Button.CloseButtonDisplay = ComponentFactory.Krypton.Navigator.ButtonDisplay.Hide;
             this.navigatorOutlook.Dock = System.Windows.Forms.DockStyle.Left;
             this.navigatorOutlook.Header.HeaderValuesPrimary.MapImage = ComponentFactory.Krypton.Navigator.MapKryptonPageImage.None;
-            this.navigatorOutlook.Location = new System.Drawing.Point(7, 7);
+            this.navigatorOutlook.Location = new System.Drawing.Point(8, 6);
             this.navigatorOutlook.Name = "navigatorOutlook";
             this.navigatorOutlook.NavigatorMode = ComponentFactory.Krypton.Navigator.NavigatorMode.OutlookFull;
             this.navigatorOutlook.Pages.AddRange(new ComponentFactory.Krypton.Navigator.KryptonPage[] {
             this.pageGlobalPalettes,
             this.kryptonDisplayMode});
             this.navigatorOutlook.SelectedIndex = 0;
-            this.navigatorOutlook.Size = new System.Drawing.Size(148, 440);
+            this.navigatorOutlook.Size = new System.Drawing.Size(171, 395);
             this.navigatorOutlook.TabIndex = 0;
             this.navigatorOutlook.Text = "kryptonNavigator1";
             // 
@@ -503,10 +509,10 @@ namespace RibbonAndNavigatorAndWorkspace
             this.pageGlobalPalettes.Flags = 65534;
             this.pageGlobalPalettes.ImageSmall = ((System.Drawing.Image)(resources.GetObject("pageGlobalPalettes.ImageSmall")));
             this.pageGlobalPalettes.LastVisibleSet = true;
-            this.pageGlobalPalettes.MinimumSize = new System.Drawing.Size(145, 50);
+            this.pageGlobalPalettes.MinimumSize = new System.Drawing.Size(169, 46);
             this.pageGlobalPalettes.Name = "pageGlobalPalettes";
-            this.pageGlobalPalettes.Padding = new System.Windows.Forms.Padding(10);
-            this.pageGlobalPalettes.Size = new System.Drawing.Size(146, 336);
+            this.pageGlobalPalettes.Padding = new System.Windows.Forms.Padding(12, 9, 12, 9);
+            this.pageGlobalPalettes.Size = new System.Drawing.Size(169, 282);
             this.pageGlobalPalettes.Text = "Palettes";
             this.pageGlobalPalettes.TextDescription = "Palettes";
             this.pageGlobalPalettes.TextTitle = "Palettes";
@@ -515,18 +521,18 @@ namespace RibbonAndNavigatorAndWorkspace
             // 
             // radioOffice2010Black
             // 
-            this.radioOffice2010Black.Location = new System.Drawing.Point(13, 61);
+            this.radioOffice2010Black.Location = new System.Drawing.Point(15, 56);
             this.radioOffice2010Black.Name = "radioOffice2010Black";
-            this.radioOffice2010Black.Size = new System.Drawing.Size(119, 19);
+            this.radioOffice2010Black.Size = new System.Drawing.Size(125, 20);
             this.radioOffice2010Black.TabIndex = 2;
             this.radioOffice2010Black.Values.Text = "Office 2010 - Black";
             this.radioOffice2010Black.CheckedChanged += new System.EventHandler(this.radioOffice2010Black_CheckedChanged);
             // 
             // radioSparklePurple
             // 
-            this.radioSparklePurple.Location = new System.Drawing.Point(13, 229);
+            this.radioSparklePurple.Location = new System.Drawing.Point(15, 211);
             this.radioSparklePurple.Name = "radioSparklePurple";
-            this.radioSparklePurple.Size = new System.Drawing.Size(104, 19);
+            this.radioSparklePurple.Size = new System.Drawing.Size(109, 20);
             this.radioSparklePurple.TabIndex = 9;
             this.radioSparklePurple.Values.Text = "Sparkle - Purple";
             this.radioSparklePurple.CheckedChanged += new System.EventHandler(this.radioSparklePurple_CheckedChanged);
@@ -534,72 +540,72 @@ namespace RibbonAndNavigatorAndWorkspace
             // radioOffice2010Blue
             // 
             this.radioOffice2010Blue.Checked = true;
-            this.radioOffice2010Blue.Location = new System.Drawing.Point(13, 13);
+            this.radioOffice2010Blue.Location = new System.Drawing.Point(15, 12);
             this.radioOffice2010Blue.Name = "radioOffice2010Blue";
-            this.radioOffice2010Blue.Size = new System.Drawing.Size(114, 19);
+            this.radioOffice2010Blue.Size = new System.Drawing.Size(120, 20);
             this.radioOffice2010Blue.TabIndex = 0;
             this.radioOffice2010Blue.Values.Text = "Office 2010 - Blue";
             this.radioOffice2010Blue.CheckedChanged += new System.EventHandler(this.radioOffice2010Blue_CheckedChanged);
             // 
             // radioOffice2010Silver
             // 
-            this.radioOffice2010Silver.Location = new System.Drawing.Point(13, 37);
+            this.radioOffice2010Silver.Location = new System.Drawing.Point(15, 34);
             this.radioOffice2010Silver.Name = "radioOffice2010Silver";
-            this.radioOffice2010Silver.Size = new System.Drawing.Size(120, 19);
+            this.radioOffice2010Silver.Size = new System.Drawing.Size(126, 20);
             this.radioOffice2010Silver.TabIndex = 1;
             this.radioOffice2010Silver.Values.Text = "Office 2010 - Silver";
             this.radioOffice2010Silver.CheckedChanged += new System.EventHandler(this.radioOffice2010Silver_CheckedChanged);
             // 
             // radioSparkleBlue
             // 
-            this.radioSparkleBlue.Location = new System.Drawing.Point(13, 181);
+            this.radioSparkleBlue.Location = new System.Drawing.Point(15, 167);
             this.radioSparkleBlue.Name = "radioSparkleBlue";
-            this.radioSparkleBlue.Size = new System.Drawing.Size(93, 19);
+            this.radioSparkleBlue.Size = new System.Drawing.Size(98, 20);
             this.radioSparkleBlue.TabIndex = 7;
             this.radioSparkleBlue.Values.Text = "Sparkle - Blue";
             this.radioSparkleBlue.CheckedChanged += new System.EventHandler(this.radioSparkleBlue_CheckedChanged);
             // 
             // radioSystem
             // 
-            this.radioSystem.Location = new System.Drawing.Point(13, 253);
+            this.radioSystem.Location = new System.Drawing.Point(15, 234);
             this.radioSystem.Name = "radioSystem";
-            this.radioSystem.Size = new System.Drawing.Size(59, 19);
+            this.radioSystem.Size = new System.Drawing.Size(62, 20);
             this.radioSystem.TabIndex = 10;
             this.radioSystem.Values.Text = "System";
             this.radioSystem.CheckedChanged += new System.EventHandler(this.radioSystem_CheckedChanged);
             // 
             // radioOffice2003
             // 
-            this.radioOffice2003.Location = new System.Drawing.Point(13, 157);
+            this.radioOffice2003.Location = new System.Drawing.Point(15, 145);
             this.radioOffice2003.Name = "radioOffice2003";
-            this.radioOffice2003.Size = new System.Drawing.Size(81, 19);
+            this.radioOffice2003.Size = new System.Drawing.Size(85, 20);
             this.radioOffice2003.TabIndex = 6;
             this.radioOffice2003.Values.Text = "Office 2003";
             this.radioOffice2003.CheckedChanged += new System.EventHandler(this.radioOffice2003_CheckedChanged);
             // 
             // radioOffice2007Black
             // 
-            this.radioOffice2007Black.Location = new System.Drawing.Point(13, 133);
+            this.radioOffice2007Black.Location = new System.Drawing.Point(15, 123);
             this.radioOffice2007Black.Name = "radioOffice2007Black";
-            this.radioOffice2007Black.Size = new System.Drawing.Size(119, 19);
+            this.radioOffice2007Black.Size = new System.Drawing.Size(125, 20);
             this.radioOffice2007Black.TabIndex = 5;
             this.radioOffice2007Black.Values.Text = "Office 2007 - Black";
             this.radioOffice2007Black.CheckedChanged += new System.EventHandler(this.radioOffice2007Black_CheckedChanged);
             // 
             // radioOffice2007Silver
             // 
-            this.radioOffice2007Silver.Location = new System.Drawing.Point(13, 109);
+            this.radioOffice2007Silver.Location = new System.Drawing.Point(15, 101);
             this.radioOffice2007Silver.Name = "radioOffice2007Silver";
-            this.radioOffice2007Silver.Size = new System.Drawing.Size(120, 19);
+            this.radioOffice2007Silver.Size = new System.Drawing.Size(126, 20);
             this.radioOffice2007Silver.TabIndex = 4;
             this.radioOffice2007Silver.Values.Text = "Office 2007 - Silver";
             this.radioOffice2007Silver.CheckedChanged += new System.EventHandler(this.radioOffice2007Silver_CheckedChanged);
             // 
             // radioOffice2007Blue
             // 
-            this.radioOffice2007Blue.Location = new System.Drawing.Point(13, 85);
+            this.radioOffice2007Blue.Location = new System.Drawing.Point(15, 78);
             this.radioOffice2007Blue.Name = "radioOffice2007Blue";
-            this.radioOffice2007Blue.Size = new System.Drawing.Size(114, 19);
+            this.radioOffice2007Blue.Size = new System.Drawing.Size(120, 20);
             this.radioOffice2007Blue.TabIndex = 3;
             this.radioOffice2007Blue.Values.Text = "Office 2007 - Blue";
             this.radioOffice2007Blue.CheckedChanged += new System.EventHandler(this.radioOffice2007Blue_CheckedChanged);
@@ -616,10 +622,10 @@ namespace RibbonAndNavigatorAndWorkspace
             this.kryptonDisplayMode.Flags = 65534;
             this.kryptonDisplayMode.ImageSmall = ((System.Drawing.Image)(resources.GetObject("kryptonDisplayMode.ImageSmall")));
             this.kryptonDisplayMode.LastVisibleSet = true;
-            this.kryptonDisplayMode.MinimumSize = new System.Drawing.Size(145, 50);
+            this.kryptonDisplayMode.MinimumSize = new System.Drawing.Size(169, 46);
             this.kryptonDisplayMode.Name = "kryptonDisplayMode";
-            this.kryptonDisplayMode.Padding = new System.Windows.Forms.Padding(10);
-            this.kryptonDisplayMode.Size = new System.Drawing.Size(151, 247);
+            this.kryptonDisplayMode.Padding = new System.Windows.Forms.Padding(12, 9, 12, 9);
+            this.kryptonDisplayMode.Size = new System.Drawing.Size(176, 228);
             this.kryptonDisplayMode.Text = "Display Mode";
             this.kryptonDisplayMode.TextDescription = "Display Mode";
             this.kryptonDisplayMode.TextTitle = "Display Mode";
@@ -628,50 +634,50 @@ namespace RibbonAndNavigatorAndWorkspace
             // 
             // buttonRibbonTabs
             // 
-            this.buttonRibbonTabs.Location = new System.Drawing.Point(19, 41);
+            this.buttonRibbonTabs.Location = new System.Drawing.Point(22, 38);
             this.buttonRibbonTabs.Name = "buttonRibbonTabs";
-            this.buttonRibbonTabs.Size = new System.Drawing.Size(108, 25);
+            this.buttonRibbonTabs.Size = new System.Drawing.Size(126, 23);
             this.buttonRibbonTabs.TabIndex = 14;
             this.buttonRibbonTabs.Values.Text = "RibbonTabs";
             // 
             // buttonStack
             // 
-            this.buttonStack.Location = new System.Drawing.Point(19, 165);
+            this.buttonStack.Location = new System.Drawing.Point(22, 152);
             this.buttonStack.Name = "buttonStack";
-            this.buttonStack.Size = new System.Drawing.Size(108, 25);
+            this.buttonStack.Size = new System.Drawing.Size(126, 23);
             this.buttonStack.TabIndex = 13;
             this.buttonStack.Values.Text = "Stack";
             // 
             // buttonHeaderBar
             // 
-            this.buttonHeaderBar.Location = new System.Drawing.Point(19, 134);
+            this.buttonHeaderBar.Location = new System.Drawing.Point(22, 124);
             this.buttonHeaderBar.Name = "buttonHeaderBar";
-            this.buttonHeaderBar.Size = new System.Drawing.Size(108, 25);
+            this.buttonHeaderBar.Size = new System.Drawing.Size(126, 23);
             this.buttonHeaderBar.TabIndex = 12;
             this.buttonHeaderBar.Values.Text = "HeaderBar";
             // 
             // buttonHeaderGroup
             // 
-            this.buttonHeaderGroup.Location = new System.Drawing.Point(19, 103);
+            this.buttonHeaderGroup.Location = new System.Drawing.Point(22, 95);
             this.buttonHeaderGroup.Name = "buttonHeaderGroup";
-            this.buttonHeaderGroup.Size = new System.Drawing.Size(108, 25);
+            this.buttonHeaderGroup.Size = new System.Drawing.Size(126, 23);
             this.buttonHeaderGroup.TabIndex = 11;
             this.buttonHeaderGroup.Values.Text = "HeaderGroup";
             // 
             // buttonCheckButtons
             // 
-            this.buttonCheckButtons.Location = new System.Drawing.Point(19, 72);
+            this.buttonCheckButtons.Checked = true;
+            this.buttonCheckButtons.Location = new System.Drawing.Point(22, 66);
             this.buttonCheckButtons.Name = "buttonCheckButtons";
-            this.buttonCheckButtons.Size = new System.Drawing.Size(108, 25);
+            this.buttonCheckButtons.Size = new System.Drawing.Size(126, 23);
             this.buttonCheckButtons.TabIndex = 10;
             this.buttonCheckButtons.Values.Text = "CheckButtons";
             // 
             // buttonTabs
             // 
-            this.buttonTabs.Checked = true;
-            this.buttonTabs.Location = new System.Drawing.Point(19, 10);
+            this.buttonTabs.Location = new System.Drawing.Point(22, 9);
             this.buttonTabs.Name = "buttonTabs";
-            this.buttonTabs.Size = new System.Drawing.Size(108, 25);
+            this.buttonTabs.Size = new System.Drawing.Size(126, 23);
             this.buttonTabs.TabIndex = 9;
             this.buttonTabs.Values.Text = "Tabs";
             // 
@@ -688,6 +694,7 @@ namespace RibbonAndNavigatorAndWorkspace
             // 
             // kryptonRibbon
             // 
+            this.kryptonRibbon.InDesignHelperMode = true;
             this.kryptonRibbon.Name = "kryptonRibbon";
             this.kryptonRibbon.QATButtons.AddRange(new System.ComponentModel.Component[] {
             this.qatAlbania,
@@ -710,9 +717,8 @@ namespace RibbonAndNavigatorAndWorkspace
             this.kryptonRibbon.RibbonTabs.AddRange(new ComponentFactory.Krypton.Ribbon.KryptonRibbonTab[] {
             this.kryptonRibbonTab1,
             this.kryptonRibbonTab2});
-            this.kryptonRibbon.SelectedContext = null;
             this.kryptonRibbon.SelectedTab = this.kryptonRibbonTab1;
-            this.kryptonRibbon.Size = new System.Drawing.Size(638, 141);
+            this.kryptonRibbon.Size = new System.Drawing.Size(744, 142);
             this.kryptonRibbon.TabIndex = 0;
             // 
             // qatAlbania
@@ -1087,7 +1093,7 @@ namespace RibbonAndNavigatorAndWorkspace
             // 
             this.kryptonLabel2.Location = new System.Drawing.Point(166, 44);
             this.kryptonLabel2.Name = "kryptonLabel2";
-            this.kryptonLabel2.Size = new System.Drawing.Size(76, 19);
+            this.kryptonLabel2.Size = new System.Drawing.Size(80, 20);
             this.kryptonLabel2.TabIndex = 15;
             this.kryptonLabel2.Values.Text = "Simple Label";
             // 
@@ -1095,7 +1101,7 @@ namespace RibbonAndNavigatorAndWorkspace
             // 
             this.kryptonLinkLabel2.Location = new System.Drawing.Point(166, 19);
             this.kryptonLinkLabel2.Name = "kryptonLinkLabel2";
-            this.kryptonLinkLabel2.Size = new System.Drawing.Size(61, 19);
+            this.kryptonLinkLabel2.Size = new System.Drawing.Size(65, 20);
             this.kryptonLinkLabel2.TabIndex = 14;
             this.kryptonLinkLabel2.Values.Text = "Link Label";
             // 
@@ -1103,7 +1109,7 @@ namespace RibbonAndNavigatorAndWorkspace
             // 
             this.kryptonRadioButton4.Location = new System.Drawing.Point(13, 165);
             this.kryptonRadioButton4.Name = "kryptonRadioButton4";
-            this.kryptonRadioButton4.Size = new System.Drawing.Size(135, 19);
+            this.kryptonRadioButton4.Size = new System.Drawing.Size(142, 20);
             this.kryptonRadioButton4.TabIndex = 13;
             this.kryptonRadioButton4.Values.Text = "RadioButton Option 3";
             // 
@@ -1112,7 +1118,7 @@ namespace RibbonAndNavigatorAndWorkspace
             this.kryptonRadioButton5.Checked = true;
             this.kryptonRadioButton5.Location = new System.Drawing.Point(13, 139);
             this.kryptonRadioButton5.Name = "kryptonRadioButton5";
-            this.kryptonRadioButton5.Size = new System.Drawing.Size(135, 19);
+            this.kryptonRadioButton5.Size = new System.Drawing.Size(142, 20);
             this.kryptonRadioButton5.TabIndex = 12;
             this.kryptonRadioButton5.Values.Text = "RadioButton Option 2";
             // 
@@ -1120,7 +1126,7 @@ namespace RibbonAndNavigatorAndWorkspace
             // 
             this.kryptonRadioButton6.Location = new System.Drawing.Point(13, 113);
             this.kryptonRadioButton6.Name = "kryptonRadioButton6";
-            this.kryptonRadioButton6.Size = new System.Drawing.Size(135, 19);
+            this.kryptonRadioButton6.Size = new System.Drawing.Size(142, 20);
             this.kryptonRadioButton6.TabIndex = 11;
             this.kryptonRadioButton6.Values.Text = "RadioButton Option 1";
             // 
@@ -1130,7 +1136,7 @@ namespace RibbonAndNavigatorAndWorkspace
             this.kryptonCheckBox4.CheckState = System.Windows.Forms.CheckState.Indeterminate;
             this.kryptonCheckBox4.Location = new System.Drawing.Point(13, 71);
             this.kryptonCheckBox4.Name = "kryptonCheckBox4";
-            this.kryptonCheckBox4.Size = new System.Drawing.Size(122, 19);
+            this.kryptonCheckBox4.Size = new System.Drawing.Size(128, 20);
             this.kryptonCheckBox4.TabIndex = 10;
             this.kryptonCheckBox4.Values.Text = "CheckBox Option 3";
             // 
@@ -1140,7 +1146,7 @@ namespace RibbonAndNavigatorAndWorkspace
             this.kryptonCheckBox5.CheckState = System.Windows.Forms.CheckState.Checked;
             this.kryptonCheckBox5.Location = new System.Drawing.Point(13, 45);
             this.kryptonCheckBox5.Name = "kryptonCheckBox5";
-            this.kryptonCheckBox5.Size = new System.Drawing.Size(122, 19);
+            this.kryptonCheckBox5.Size = new System.Drawing.Size(128, 20);
             this.kryptonCheckBox5.TabIndex = 9;
             this.kryptonCheckBox5.Values.Text = "CheckBox Option 2";
             // 
@@ -1148,7 +1154,7 @@ namespace RibbonAndNavigatorAndWorkspace
             // 
             this.kryptonCheckBox6.Location = new System.Drawing.Point(13, 19);
             this.kryptonCheckBox6.Name = "kryptonCheckBox6";
-            this.kryptonCheckBox6.Size = new System.Drawing.Size(122, 19);
+            this.kryptonCheckBox6.Size = new System.Drawing.Size(128, 20);
             this.kryptonCheckBox6.TabIndex = 8;
             this.kryptonCheckBox6.Values.Text = "CheckBox Option 1";
             // 
@@ -1166,13 +1172,13 @@ namespace RibbonAndNavigatorAndWorkspace
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(638, 595);
+            this.ClientSize = new System.Drawing.Size(744, 549);
             this.Controls.Add(this.panelFill);
             this.Controls.Add(this.kryptonRibbon);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MinimumSize = new System.Drawing.Size(400, 525);
+            this.MinimumSize = new System.Drawing.Size(464, 488);
             this.Name = "Form1";
             this.Text = "Ribbon + Navigator + Workspace";
             ((System.ComponentModel.ISupportInitialize)(this.panelFill)).EndInit();

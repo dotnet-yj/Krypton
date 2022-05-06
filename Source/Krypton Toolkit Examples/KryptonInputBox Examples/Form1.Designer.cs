@@ -46,6 +46,7 @@
             this.labelPrompt.Size = new System.Drawing.Size(41, 13);
             this.labelPrompt.TabIndex = 0;
             this.labelPrompt.Text = "Prompt";
+            this.labelPrompt.Click += new System.EventHandler(this.labelPrompt_Click);
             // 
             // labelCaption
             // 
@@ -55,6 +56,7 @@
             this.labelCaption.Size = new System.Drawing.Size(44, 13);
             this.labelCaption.TabIndex = 2;
             this.labelCaption.Text = "Caption";
+            this.labelCaption.Click += new System.EventHandler(this.labelCaption_Click);
             // 
             // labelDefaultResponse
             // 
@@ -64,6 +66,7 @@
             this.labelDefaultResponse.Size = new System.Drawing.Size(92, 13);
             this.labelDefaultResponse.TabIndex = 4;
             this.labelDefaultResponse.Text = "Default Response";
+            this.labelDefaultResponse.Click += new System.EventHandler(this.labelDefaultResponse_Click);
             // 
             // textBoxPrompt
             // 
@@ -72,6 +75,7 @@
             this.textBoxPrompt.Size = new System.Drawing.Size(245, 21);
             this.textBoxPrompt.TabIndex = 1;
             this.textBoxPrompt.Text = "User Prompt";
+            this.textBoxPrompt.TextChanged += new System.EventHandler(this.textBoxPrompt_TextChanged);
             // 
             // textBoxCaption
             // 
@@ -80,6 +84,7 @@
             this.textBoxCaption.Size = new System.Drawing.Size(245, 21);
             this.textBoxCaption.TabIndex = 3;
             this.textBoxCaption.Text = "Window Title";
+            this.textBoxCaption.TextChanged += new System.EventHandler(this.textBoxCaption_TextChanged);
             // 
             // textBoxDefaultResponse
             // 
@@ -88,6 +93,7 @@
             this.textBoxDefaultResponse.Size = new System.Drawing.Size(245, 21);
             this.textBoxDefaultResponse.TabIndex = 5;
             this.textBoxDefaultResponse.Text = "Default Response";
+            this.textBoxDefaultResponse.TextChanged += new System.EventHandler(this.textBoxDefaultResponse_TextChanged);
             // 
             // buttonShow
             // 

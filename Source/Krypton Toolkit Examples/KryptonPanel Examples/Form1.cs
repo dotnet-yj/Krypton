@@ -41,6 +41,11 @@ namespace KryptonPanelExamples
         {
             Close();
         }
+
+        private void panel3Custom_Paint ( object sender, PaintEventArgs e )
+        {
+
+        }
     }
 
     public class KryptonPanelProxy

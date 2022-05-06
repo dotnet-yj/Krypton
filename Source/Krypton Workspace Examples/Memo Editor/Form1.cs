@@ -8,19 +8,15 @@
 //  Version 4.6.0.0 	www.ComponentFactory.com
 // *****************************************************************************
 
-using System;
-using System.IO;
-using System.Data;
-using System.Text;
-using System.Drawing;
-using System.Windows.Forms;
-using System.ComponentModel;
-using System.Collections.Generic;
-using Microsoft.Win32;
-using ComponentFactory.Krypton.Toolkit;
-using ComponentFactory.Krypton.Ribbon;
 using ComponentFactory.Krypton.Navigator;
+using ComponentFactory.Krypton.Ribbon;
+using ComponentFactory.Krypton.Toolkit;
 using ComponentFactory.Krypton.Workspace;
+using Microsoft.Win32;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Windows.Forms;
 
 namespace MemoEditor
 {

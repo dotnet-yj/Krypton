@@ -39,6 +39,7 @@ namespace KryptonCheckBoxExamples
         {
             Close();
         }
+
     }
 
     public class KryptonCheckBoxProxy

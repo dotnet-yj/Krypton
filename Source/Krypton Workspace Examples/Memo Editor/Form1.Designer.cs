@@ -93,6 +93,7 @@
             this.buttonHeader = new ComponentFactory.Krypton.Ribbon.KryptonRibbonGroupButton();
             this.buttonHeaderButtons = new ComponentFactory.Krypton.Ribbon.KryptonRibbonGroupButton();
             this.buttonStack = new ComponentFactory.Krypton.Ribbon.KryptonRibbonGroupButton();
+            this.kryptonRibbonTab1 = new ComponentFactory.Krypton.Ribbon.KryptonRibbonTab();
             this.kryptonPanel1 = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
             this.kryptonWorkspace = new ComponentFactory.Krypton.Workspace.KryptonWorkspace();
             this.imageList32 = new System.Windows.Forms.ImageList(this.components);
@@ -108,6 +109,7 @@
             // kryptonRibbon
             // 
             this.kryptonRibbon.AllowFormIntegrate = false;
+            this.kryptonRibbon.InDesignHelperMode = true;
             this.kryptonRibbon.Name = "kryptonRibbon";
             this.kryptonRibbon.RibbonAppButton.AppButtonImage = ((System.Drawing.Image)(resources.GetObject("kryptonRibbon.RibbonAppButton.AppButtonImage")));
             this.kryptonRibbon.RibbonAppButton.AppButtonMaxRecentSize = new System.Drawing.Size(250, 200);
@@ -126,9 +128,11 @@
             this.buttonSpecExit});
             this.kryptonRibbon.RibbonTabs.AddRange(new ComponentFactory.Krypton.Ribbon.KryptonRibbonTab[] {
             this.ribbonTabMemo,
-            this.ribbonTabAppearance});
+            this.ribbonTabAppearance,
+            this.kryptonRibbonTab1});
+            this.kryptonRibbon.SelectedContext = null;
             this.kryptonRibbon.SelectedTab = this.ribbonTabMemo;
-            this.kryptonRibbon.Size = new System.Drawing.Size(584, 114);
+            this.kryptonRibbon.Size = new System.Drawing.Size(949, 115);
             this.kryptonRibbon.TabIndex = 0;
             // 
             // appButtonNewMemo
@@ -256,8 +260,8 @@
             this.buttonSaveAllMemo.ImageLarge = ((System.Drawing.Image)(resources.GetObject("buttonSaveAllMemo.ImageLarge")));
             this.buttonSaveAllMemo.ImageSmall = ((System.Drawing.Image)(resources.GetObject("buttonSaveAllMemo.ImageSmall")));
             this.buttonSaveAllMemo.KeyTip = "L";
-            this.buttonSaveAllMemo.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift)
-                        | System.Windows.Forms.Keys.S)));
+            this.buttonSaveAllMemo.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
+            | System.Windows.Forms.Keys.S)));
             this.buttonSaveAllMemo.TextLine1 = "Save";
             this.buttonSaveAllMemo.TextLine2 = "All";
             this.buttonSaveAllMemo.Click += new System.EventHandler(this.buttonSaveAllMemo_Click);
@@ -305,8 +309,8 @@
             this.buttonSingleGroupArrange.ImageLarge = ((System.Drawing.Image)(resources.GetObject("buttonSingleGroupArrange.ImageLarge")));
             this.buttonSingleGroupArrange.ImageSmall = ((System.Drawing.Image)(resources.GetObject("buttonSingleGroupArrange.ImageSmall")));
             this.buttonSingleGroupArrange.KeyTip = "T";
-            this.buttonSingleGroupArrange.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift)
-                        | System.Windows.Forms.Keys.T)));
+            this.buttonSingleGroupArrange.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
+            | System.Windows.Forms.Keys.T)));
             this.buttonSingleGroupArrange.TextLine1 = "Single";
             this.buttonSingleGroupArrange.TextLine2 = "Group";
             this.buttonSingleGroupArrange.Click += new System.EventHandler(this.buttonSingleGroupArrange_Click);
@@ -324,8 +328,8 @@
             this.buttonGridArrange.ImageLarge = ((System.Drawing.Image)(resources.GetObject("buttonGridArrange.ImageLarge")));
             this.buttonGridArrange.ImageSmall = ((System.Drawing.Image)(resources.GetObject("buttonGridArrange.ImageSmall")));
             this.buttonGridArrange.KeyTip = "G";
-            this.buttonGridArrange.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift)
-                        | System.Windows.Forms.Keys.G)));
+            this.buttonGridArrange.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
+            | System.Windows.Forms.Keys.G)));
             this.buttonGridArrange.TextLine1 = "Grid";
             this.buttonGridArrange.Click += new System.EventHandler(this.buttonGridArrange_Click);
             // 
@@ -640,28 +644,29 @@
             // 
             this.kryptonPanel1.Controls.Add(this.kryptonWorkspace);
             this.kryptonPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.kryptonPanel1.Location = new System.Drawing.Point(0, 114);
+            this.kryptonPanel1.Location = new System.Drawing.Point(0, 115);
             this.kryptonPanel1.Name = "kryptonPanel1";
-            this.kryptonPanel1.Padding = new System.Windows.Forms.Padding(5);
-            this.kryptonPanel1.Size = new System.Drawing.Size(584, 350);
+            this.kryptonPanel1.Padding = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.kryptonPanel1.Size = new System.Drawing.Size(949, 313);
             this.kryptonPanel1.TabIndex = 1;
             // 
             // kryptonWorkspace
             // 
             this.kryptonWorkspace.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.kryptonWorkspace.Location = new System.Drawing.Point(5, 5);
+            this.kryptonWorkspace.Location = new System.Drawing.Point(6, 5);
             this.kryptonWorkspace.Name = "kryptonWorkspace";
             // 
             // 
             // 
             this.kryptonWorkspace.Root.UniqueName = "95EF19B665334EE77CBA364F49E3EB38";
+            this.kryptonWorkspace.Root.WorkspaceControl = this.kryptonWorkspace;
             this.kryptonWorkspace.SeparatorStyle = ComponentFactory.Krypton.Toolkit.SeparatorStyle.HighProfile;
-            this.kryptonWorkspace.Size = new System.Drawing.Size(574, 340);
+            this.kryptonWorkspace.Size = new System.Drawing.Size(937, 303);
             this.kryptonWorkspace.TabIndex = 1;
             this.kryptonWorkspace.TabStop = true;
-            this.kryptonWorkspace.ActivePageChanged += new System.EventHandler<ComponentFactory.Krypton.Workspace.ActivePageChangedEventArgs>(this.kryptonWorkspace_ActivePageChanged);
-            this.kryptonWorkspace.ActiveCellChanged += new System.EventHandler<ComponentFactory.Krypton.Workspace.ActiveCellChangedEventArgs>(this.kryptonWorkspace_ActiveCellChanged);
             this.kryptonWorkspace.WorkspaceCellAdding += new System.EventHandler<ComponentFactory.Krypton.Workspace.WorkspaceCellEventArgs>(this.kryptonWorkspace_WorkspaceCellAdding);
+            this.kryptonWorkspace.ActiveCellChanged += new System.EventHandler<ComponentFactory.Krypton.Workspace.ActiveCellChangedEventArgs>(this.kryptonWorkspace_ActiveCellChanged);
+            this.kryptonWorkspace.ActivePageChanged += new System.EventHandler<ComponentFactory.Krypton.Workspace.ActivePageChangedEventArgs>(this.kryptonWorkspace_ActivePageChanged);
             // 
             // imageList32
             // 
@@ -684,18 +689,18 @@
             // 
             // MemoEditorForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(584, 464);
+            this.ClientSize = new System.Drawing.Size(949, 428);
             this.Controls.Add(this.kryptonPanel1);
             this.Controls.Add(this.kryptonRibbon);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MinimumSize = new System.Drawing.Size(489, 414);
+            this.MinimumSize = new System.Drawing.Size(568, 385);
             this.Name = "MemoEditorForm";
             this.Text = "Memo Editor";
-            this.Load += new System.EventHandler(this.MemoEditorForm1_Load);
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MemoEditorForm_FormClosed);
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MemoEditorForm_FormClosing);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MemoEditorForm_FormClosed);
+            this.Load += new System.EventHandler(this.MemoEditorForm1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.kryptonRibbon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel1)).EndInit();
             this.kryptonPanel1.ResumeLayout(false);
@@ -776,7 +781,7 @@
         private ComponentFactory.Krypton.Ribbon.KryptonRibbonGroupButton button2010Blue;
         private ComponentFactory.Krypton.Ribbon.KryptonRibbonGroupButton button2010Silver;
         private ComponentFactory.Krypton.Ribbon.KryptonRibbonGroupButton button2010Black;
-
+        private ComponentFactory.Krypton.Ribbon.KryptonRibbonTab kryptonRibbonTab1;
     }
 }
 

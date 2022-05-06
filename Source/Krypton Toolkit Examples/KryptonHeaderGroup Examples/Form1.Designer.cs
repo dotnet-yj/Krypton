@@ -82,8 +82,8 @@ namespace KryptonHeaderGroupExamples
             // 
             // groupBox4
             // 
-            this.groupBox4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox4.Controls.Add(this.propertyGrid);
             this.groupBox4.Location = new System.Drawing.Point(333, 12);
             this.groupBox4.Name = "groupBox4";
@@ -94,9 +94,9 @@ namespace KryptonHeaderGroupExamples
             // 
             // propertyGrid
             // 
-            this.propertyGrid.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.propertyGrid.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.propertyGrid.Location = new System.Drawing.Point(6, 19);
             this.propertyGrid.Name = "propertyGrid";
             this.propertyGrid.Size = new System.Drawing.Size(309, 603);
@@ -137,7 +137,6 @@ namespace KryptonHeaderGroupExamples
             // 
             this.headerGroup2Office.Panel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel_MouseDown);
             this.headerGroup2Office.Size = new System.Drawing.Size(158, 129);
-            this.headerGroup2Office.StateNormal.HeaderPrimary.Content.Image.Effect = ComponentFactory.Krypton.Toolkit.PaletteImageEffect.Inherit;
             this.headerGroup2Office.StateNormal.HeaderPrimary.Content.Image.ImageH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Far;
             this.headerGroup2Office.TabIndex = 1;
             this.headerGroup2Office.ValuesPrimary.Heading = "Calendar";
@@ -167,8 +166,6 @@ namespace KryptonHeaderGroupExamples
             // 
             // buttonSpecHeaderGroup1
             // 
-            this.buttonSpecHeaderGroup1.Style = ComponentFactory.Krypton.Toolkit.PaletteButtonStyle.Inherit;
-            this.buttonSpecHeaderGroup1.ToolTipStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.ToolTip;
             this.buttonSpecHeaderGroup1.ToolTipTitle = "Toggle the Collapsed/Expanded state";
             this.buttonSpecHeaderGroup1.Type = ComponentFactory.Krypton.Toolkit.PaletteButtonSpecStyle.ArrowUp;
             this.buttonSpecHeaderGroup1.UniqueName = "A3F93613DE6E4171A3F93613DE6E4171";
@@ -206,7 +203,6 @@ namespace KryptonHeaderGroupExamples
             // 
             this.headerGroup2Blue.Panel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel_MouseDown);
             this.headerGroup2Blue.Size = new System.Drawing.Size(158, 134);
-            this.headerGroup2Blue.StateNormal.HeaderPrimary.Content.Image.Effect = ComponentFactory.Krypton.Toolkit.PaletteImageEffect.Inherit;
             this.headerGroup2Blue.StateNormal.HeaderPrimary.Content.Image.ImageH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Far;
             this.headerGroup2Blue.TabIndex = 2;
             this.headerGroup2Blue.ValuesPrimary.Heading = "Calendar";
@@ -236,8 +232,6 @@ namespace KryptonHeaderGroupExamples
             // 
             // buttonSpecHeaderGroup3
             // 
-            this.buttonSpecHeaderGroup3.Style = ComponentFactory.Krypton.Toolkit.PaletteButtonStyle.Inherit;
-            this.buttonSpecHeaderGroup3.ToolTipStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.ToolTip;
             this.buttonSpecHeaderGroup3.ToolTipTitle = "Toggle the Collapsed/Expanded state";
             this.buttonSpecHeaderGroup3.Type = ComponentFactory.Krypton.Toolkit.PaletteButtonSpecStyle.ArrowUp;
             this.buttonSpecHeaderGroup3.UniqueName = "7C2CD73A480A44C57C2CD73A480A44C5";
@@ -280,39 +274,28 @@ namespace KryptonHeaderGroupExamples
             this.headerGroup4Custom.StateNormal.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(186)))), ((int)(((byte)(247)))));
             this.headerGroup4Custom.StateNormal.Back.ColorAngle = 15F;
             this.headerGroup4Custom.StateNormal.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Sigma;
-            this.headerGroup4Custom.StateNormal.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.headerGroup4Custom.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(150)))));
-            this.headerGroup4Custom.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom)
-                        | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left)
-                        | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.headerGroup4Custom.StateNormal.Border.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
+            this.headerGroup4Custom.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.headerGroup4Custom.StateNormal.Border.Width = 1;
             this.headerGroup4Custom.StateNormal.HeaderPrimary.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(153)))));
             this.headerGroup4Custom.StateNormal.HeaderPrimary.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Solid;
-            this.headerGroup4Custom.StateNormal.HeaderPrimary.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.headerGroup4Custom.StateNormal.HeaderPrimary.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(150)))));
-            this.headerGroup4Custom.StateNormal.HeaderPrimary.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom)
-                        | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left)
-                        | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.headerGroup4Custom.StateNormal.HeaderPrimary.Border.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
+            this.headerGroup4Custom.StateNormal.HeaderPrimary.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.headerGroup4Custom.StateNormal.HeaderPrimary.Border.Width = 1;
-            this.headerGroup4Custom.StateNormal.HeaderPrimary.Content.Image.Effect = ComponentFactory.Krypton.Toolkit.PaletteImageEffect.Inherit;
             this.headerGroup4Custom.StateNormal.HeaderPrimary.Content.Image.ImageH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Far;
             this.headerGroup4Custom.StateNormal.HeaderSecondary.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(153)))));
             this.headerGroup4Custom.StateNormal.HeaderSecondary.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Solid;
-            this.headerGroup4Custom.StateNormal.HeaderSecondary.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.headerGroup4Custom.StateNormal.HeaderSecondary.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(150)))));
-            this.headerGroup4Custom.StateNormal.HeaderSecondary.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom)
-                        | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left)
-                        | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.headerGroup4Custom.StateNormal.HeaderSecondary.Border.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
+            this.headerGroup4Custom.StateNormal.HeaderSecondary.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.headerGroup4Custom.StateNormal.HeaderSecondary.Border.Width = 1;
             this.headerGroup4Custom.StateNormal.HeaderSecondary.Content.LongText.Color1 = System.Drawing.Color.White;
-            this.headerGroup4Custom.StateNormal.HeaderSecondary.Content.LongText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
-            this.headerGroup4Custom.StateNormal.HeaderSecondary.Content.LongText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
             this.headerGroup4Custom.StateNormal.HeaderSecondary.Content.ShortText.Color1 = System.Drawing.Color.White;
-            this.headerGroup4Custom.StateNormal.HeaderSecondary.Content.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
-            this.headerGroup4Custom.StateNormal.HeaderSecondary.Content.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
             this.headerGroup4Custom.TabIndex = 5;
             this.headerGroup4Custom.ValuesPrimary.Heading = "Computer";
             this.headerGroup4Custom.ValuesPrimary.Image = global::KryptonHeaderGroupExamples.Properties.Resources.WinLogo;
@@ -323,7 +306,7 @@ namespace KryptonHeaderGroupExamples
             this.headerGroup3Custom.AllowButtonSpecToolTips = true;
             this.headerGroup3Custom.ButtonSpecs.AddRange(new ComponentFactory.Krypton.Toolkit.ButtonSpecHeaderGroup[] {
             this.buttonSpecHeaderGroup5});
-            this.headerGroup3Custom.Location = new System.Drawing.Point(15, 148);
+            this.headerGroup3Custom.Location = new System.Drawing.Point(11, 148);
             this.headerGroup3Custom.Name = "headerGroup3Custom";
             this.headerGroup3Custom.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
             // 
@@ -335,39 +318,29 @@ namespace KryptonHeaderGroupExamples
             this.headerGroup3Custom.StateCommon.HeaderPrimary.ButtonPadding = new System.Windows.Forms.Padding(2, -1, 0, -1);
             this.headerGroup3Custom.StateCommon.OverlayHeaders = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.headerGroup3Custom.StateNormal.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
-            this.headerGroup3Custom.StateNormal.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.headerGroup3Custom.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(201)))), ((int)(((byte)(255)))));
-            this.headerGroup3Custom.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom)
-                        | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left)
-                        | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.headerGroup3Custom.StateNormal.Border.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
+            this.headerGroup3Custom.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.headerGroup3Custom.StateNormal.Border.Width = 2;
             this.headerGroup3Custom.StateNormal.HeaderPrimary.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(201)))), ((int)(((byte)(255)))));
             this.headerGroup3Custom.StateNormal.HeaderPrimary.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
             this.headerGroup3Custom.StateNormal.HeaderPrimary.Back.ColorAngle = 70F;
             this.headerGroup3Custom.StateNormal.HeaderPrimary.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounded;
-            this.headerGroup3Custom.StateNormal.HeaderPrimary.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.headerGroup3Custom.StateNormal.HeaderPrimary.Border.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
-            this.headerGroup3Custom.StateNormal.HeaderPrimary.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom)
-                        | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left)
-                        | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.headerGroup3Custom.StateNormal.HeaderPrimary.Border.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
+            this.headerGroup3Custom.StateNormal.HeaderPrimary.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.headerGroup3Custom.StateNormal.HeaderPrimary.Content.ShortText.Color1 = System.Drawing.Color.Black;
-            this.headerGroup3Custom.StateNormal.HeaderPrimary.Content.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
-            this.headerGroup3Custom.StateNormal.HeaderPrimary.Content.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
             this.headerGroup3Custom.StateNormal.HeaderSecondary.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
             this.headerGroup3Custom.StateNormal.HeaderSecondary.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(201)))), ((int)(((byte)(255)))));
             this.headerGroup3Custom.StateNormal.HeaderSecondary.Back.ColorAngle = 70F;
             this.headerGroup3Custom.StateNormal.HeaderSecondary.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounded;
-            this.headerGroup3Custom.StateNormal.HeaderSecondary.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.headerGroup3Custom.StateNormal.HeaderSecondary.Border.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
-            this.headerGroup3Custom.StateNormal.HeaderSecondary.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom)
-                        | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left)
-                        | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.headerGroup3Custom.StateNormal.HeaderSecondary.Border.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
-            this.headerGroup3Custom.StateNormal.HeaderSecondary.Content.LongText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
+            this.headerGroup3Custom.StateNormal.HeaderSecondary.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.headerGroup3Custom.StateNormal.HeaderSecondary.Content.LongText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Far;
-            this.headerGroup3Custom.StateNormal.HeaderSecondary.Content.LongText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
             this.headerGroup3Custom.TabIndex = 4;
             this.headerGroup3Custom.ValuesPrimary.Heading = "Notepad";
             this.headerGroup3Custom.ValuesPrimary.Image = ((System.Drawing.Image)(resources.GetObject("headerGroup3Custom.ValuesPrimary.Image")));
@@ -378,7 +351,6 @@ namespace KryptonHeaderGroupExamples
             // 
             this.buttonSpecHeaderGroup5.Edge = ComponentFactory.Krypton.Toolkit.PaletteRelativeEdgeAlign.Far;
             this.buttonSpecHeaderGroup5.Style = ComponentFactory.Krypton.Toolkit.PaletteButtonStyle.ButtonSpec;
-            this.buttonSpecHeaderGroup5.ToolTipStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.ToolTip;
             this.buttonSpecHeaderGroup5.ToolTipTitle = "Drop down for option selection";
             this.buttonSpecHeaderGroup5.Type = ComponentFactory.Krypton.Toolkit.PaletteButtonSpecStyle.Context;
             this.buttonSpecHeaderGroup5.UniqueName = "02BAE7AC90E9401302BAE7AC90E94013";
@@ -398,36 +370,26 @@ namespace KryptonHeaderGroupExamples
             this.headerGroup2Custom.StateNormal.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
             this.headerGroup2Custom.StateNormal.Back.ColorAngle = 180F;
             this.headerGroup2Custom.StateNormal.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Linear;
-            this.headerGroup2Custom.StateNormal.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.headerGroup2Custom.StateNormal.Border.Color1 = System.Drawing.SystemColors.Control;
             this.headerGroup2Custom.StateNormal.Border.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.True;
-            this.headerGroup2Custom.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom)
-                        | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left)
-                        | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.headerGroup2Custom.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.headerGroup2Custom.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.headerGroup2Custom.StateNormal.Border.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.headerGroup2Custom.StateNormal.Border.Rounding = 11;
             this.headerGroup2Custom.StateNormal.Border.Width = 1;
             this.headerGroup2Custom.StateNormal.HeaderPrimary.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(47)))), ((int)(((byte)(47)))));
             this.headerGroup2Custom.StateNormal.HeaderPrimary.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(89)))), ((int)(((byte)(89)))));
             this.headerGroup2Custom.StateNormal.HeaderPrimary.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Sigma;
-            this.headerGroup2Custom.StateNormal.HeaderPrimary.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.headerGroup2Custom.StateNormal.HeaderPrimary.Content.Padding = new System.Windows.Forms.Padding(12, 6, -1, -1);
             this.headerGroup2Custom.StateNormal.HeaderPrimary.Content.ShortText.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.headerGroup2Custom.StateNormal.HeaderPrimary.Content.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
-            this.headerGroup2Custom.StateNormal.HeaderPrimary.Content.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
             this.headerGroup2Custom.StateNormal.HeaderSecondary.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(89)))), ((int)(((byte)(89)))));
             this.headerGroup2Custom.StateNormal.HeaderSecondary.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(47)))), ((int)(((byte)(47)))));
             this.headerGroup2Custom.StateNormal.HeaderSecondary.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Sigma;
-            this.headerGroup2Custom.StateNormal.HeaderSecondary.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.headerGroup2Custom.StateNormal.HeaderSecondary.Content.LongText.Color1 = System.Drawing.Color.White;
             this.headerGroup2Custom.StateNormal.HeaderSecondary.Content.LongText.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.headerGroup2Custom.StateNormal.HeaderSecondary.Content.LongText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
-            this.headerGroup2Custom.StateNormal.HeaderSecondary.Content.LongText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
             this.headerGroup2Custom.StateNormal.HeaderSecondary.Content.Padding = new System.Windows.Forms.Padding(12, -1, -1, 5);
             this.headerGroup2Custom.StateNormal.HeaderSecondary.Content.ShortText.Color1 = System.Drawing.Color.White;
-            this.headerGroup2Custom.StateNormal.HeaderSecondary.Content.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
-            this.headerGroup2Custom.StateNormal.HeaderSecondary.Content.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
             this.headerGroup2Custom.TabIndex = 3;
             this.headerGroup2Custom.ValuesPrimary.Heading = "Dark Style";
             this.headerGroup2Custom.ValuesPrimary.Image = null;
@@ -448,36 +410,29 @@ namespace KryptonHeaderGroupExamples
             this.headerGroup1Custom.StateCommon.OverlayHeaders = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.headerGroup1Custom.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(212)))), ((int)(((byte)(192)))));
             this.headerGroup1Custom.StateNormal.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Solid;
-            this.headerGroup1Custom.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom)
-                        | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left)
-                        | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.headerGroup1Custom.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.headerGroup1Custom.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.headerGroup1Custom.StateNormal.Border.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.headerGroup1Custom.StateNormal.Border.Rounding = 11;
             this.headerGroup1Custom.StateNormal.Border.Width = 5;
             this.headerGroup1Custom.StateNormal.HeaderPrimary.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(212)))), ((int)(((byte)(192)))));
             this.headerGroup1Custom.StateNormal.HeaderPrimary.Back.Color2 = System.Drawing.Color.White;
             this.headerGroup1Custom.StateNormal.HeaderPrimary.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.headerGroup1Custom.StateNormal.HeaderPrimary.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
-            this.headerGroup1Custom.StateNormal.HeaderPrimary.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom)
-                        | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left)
-                        | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.headerGroup1Custom.StateNormal.HeaderPrimary.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.headerGroup1Custom.StateNormal.HeaderPrimary.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.headerGroup1Custom.StateNormal.HeaderPrimary.Border.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.headerGroup1Custom.StateNormal.HeaderPrimary.Border.Rounding = 6;
             this.headerGroup1Custom.StateNormal.HeaderPrimary.Border.Width = 0;
             this.headerGroup1Custom.StateNormal.HeaderPrimary.Content.ShortText.Color1 = System.Drawing.Color.Black;
-            this.headerGroup1Custom.StateNormal.HeaderPrimary.Content.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
-            this.headerGroup1Custom.StateNormal.HeaderPrimary.Content.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
             this.headerGroup1Custom.StateNormal.HeaderSecondary.Back.Color1 = System.Drawing.Color.White;
             this.headerGroup1Custom.StateNormal.HeaderSecondary.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(212)))), ((int)(((byte)(192)))));
             this.headerGroup1Custom.StateNormal.HeaderSecondary.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.headerGroup1Custom.StateNormal.HeaderSecondary.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
-            this.headerGroup1Custom.StateNormal.HeaderSecondary.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom)
-                        | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left)
-                        | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.headerGroup1Custom.StateNormal.HeaderSecondary.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.headerGroup1Custom.StateNormal.HeaderSecondary.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.headerGroup1Custom.StateNormal.HeaderSecondary.Border.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.headerGroup1Custom.StateNormal.HeaderSecondary.Border.Rounding = 6;
             this.headerGroup1Custom.StateNormal.HeaderSecondary.Border.Width = 0;
             this.headerGroup1Custom.TabIndex = 2;
